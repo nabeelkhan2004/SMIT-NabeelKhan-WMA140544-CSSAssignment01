@@ -83,7 +83,6 @@ cite {
 footer {
     display: flex;
     justify-content: space-around;
-    width: 50%;
 }
 
 footer > p {
@@ -94,4 +93,10 @@ footer > p {
 footer > p:hover {
     font-size: 1.2em;
     font-weight: 600;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
 }
