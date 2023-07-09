@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "poemHeading";
+    src: url(/fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf)
+}
+
+@font-face {
+    font-family: "subHeading";
+    src: url(/fonts/Kenac-Typeface/Kenac-Bold.otf)
+}
+@font-face {
+    font-family: "mainPoem";
+    src: url(/fonts/kirimomiswash1618368/KirimomiSwash/TTF/KirimomiSwaIt.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+body {
+    background-color: #fefae0;
+}
+
+h1 {
+    margin: 10px auto;
+    font-family: 'poemHeading', sans-serif, monospace;
+    font-size: 2rem;
+    display: flex;
+   justify-content: center;
+   color: #582f0e;
+}
+
+.poetryName {
+    margin: 10px auto;
+    font-family: 'subHeading', sans-serif, monospace;
+    font-size: 1.5rem;
+    display: flex;
+   justify-content: space-between;
+   color: #9c6644;
+}
+
+.poetRef {
+    margin: 10px auto;
+    font-family: 'subHeading', sans-serif, monospace;
+    font-size: 1rem;
+    display: flex;
+   justify-content: center;
+   color: #9c6644;
+}
+
+.poetryHead {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a {
+    color: #9c6644;
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: #9c6644;
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 5px #9c6644;
+}
+
+.mainPoem {
+    font-family: 'mainPoem';
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 50px;
+    text-transform: initial;
+    line-height: 2.5em;
+}
+
+cite {
+    text-transform: lowercase;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p {
+    text-align: center;
+    font-family: serif;
+}
+
+footer > p:hover {
+    font-size: 1.2em;
+    font-weight: 600;
+}
